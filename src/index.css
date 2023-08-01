@@ -4,7 +4,12 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #d5d4d4;
+  background-image: url("../public/assets/background.jpg");
+  background-size: cover;
+  
+ 
+  
+
 }
 
 code {
