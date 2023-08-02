@@ -1,0 +1,100 @@
+.title {
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    
+
+}
+
+.daily-item {
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    height: 40px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 20px;
+    transition: 0.2s all ease-in;
+
+    box-shadow: 0px 0px 15px 2px white;
+    opacity: 0.8;
+
+    
+}
+.daily-item:hover {
+    transform: scale(1.03);
+   
+    background-color: #73c5f1;
+    z-index: 9999;
+    box-shadow: 0px 0px 15px 2px #73c5f1;
+}
+.icon-small {
+    width: 40px;
+
+}
+
+.day {
+    color: #212121;
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.description {
+    flex: 1 1 ;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.min-max {
+    color: #757575;
+
+}
+
+.daily-details-grid {
+    grid-row-gap: 0;
+    grid-column-gap: 15px;
+    column-gap: 15px;
+    row-gap: 0;
+    display: grid;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 5px 15px;
+    background-color: #f5f5f5;
+    border-radius:  15px;
+    padding: 15px 20px;
+    margin: -10px 10px 5px;
+    transition: 0.3s all ease;
+    transform-origin: bottom;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: -1;
+    box-shadow: 0px 0px 15px 2px white;
+   
+    
+}
+.daily-details-grid:hover {
+
+    background-color: #73c5f1;
+    z-index: -1;
+    box-shadow: 0px 0px 15px 2px #73c5f1;
+}
+.daily-details-grid-items {
+   display: flex;
+   height: 30px;
+   justify-content: space-between;
+   align-items: center;
+   
+   
+}
+.daily-details-grid-items label:first-child {
+color: #757575;
+}
+.daily-details-grid-items label:first-child {
+    color: #212121;
+}
